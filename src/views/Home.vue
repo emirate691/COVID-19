@@ -8,10 +8,12 @@
               class="info
             "
             >
-              <h3>Emergency</h3>
+              <h3>Public Awareness</h3>
               <hr />
               <p class="para">Coronavirus disease (COVID-19) pandemic</p>
-              <b-button href="#" variant="">All info</b-button>
+              <b-button href="#" variant=""
+                >click for more information</b-button
+              >
             </b-card>
           </div>
         </b-col>
@@ -60,7 +62,7 @@
 
 <style>
 .info {
-  height: 300px;
+  height: 370px;
   background-color: red;
 }
 .para {
