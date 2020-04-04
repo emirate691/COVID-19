@@ -1,13 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <div id="nav"><router-link to="/">Home</router-link> |</div>
     <router-view />
+
+    <Header />
   </div>
 </template>
+<script>
+import Header from "@/components/Header.vue";
+//import Head from "@/components/Head.vue";
 
+export default {
+  name: "app",
+  components: {
+    //Head,
+    Header
+  }
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
